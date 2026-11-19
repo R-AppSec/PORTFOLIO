@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Rajesh Thippani - Senior AppSec Engineer | Automotive Security Specialist | Projects & Portfolio">
+    <meta name="keywords" content="AppSec, Cybersecurity, Automotive Security, Security Testing, Pentesting, Portfolio">
+    
+    <title>Rajesh Thippani | Senior AppSec Engineer</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">Rajesh Thippani</span>
+                <span class="logo-accent">/security</span>
+            </div>
+            
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            
+            <ul class="nav-menu" id="navMenu">
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#competitions" class="nav-link">Competitions</a></li>
+                <li class="nav-item"><a href="#learning" class="nav-link">Learning</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">Rajesh Thippani</h1>
+                <p class="hero-subtitle">Senior Application Security Engineer</p>
+                <p class="hero-description">
+                    Specializing in connected vehicle security, automotive APIs, mobile application testing, 
+                    and comprehensive security assessments across cloud, mobile, and backend environments.
+                </p>
+                <div class="hero-cta">
+                    <a href="https://github.com/rajesh-thippani" class="btn btn-primary" target="_blank">
+                        <span class="icon">→</span> GitHub
+                    </a>
+                    <a href="https://linkedin.com/in/rajesh-thippani-748694178" class="btn btn-secondary" target="_blank">
+                        <span class="icon">↗</span> LinkedIn
+                    </a>
+                    <a href="mailto:rajesh.thippani0@gmail.com" class="btn btn-outline">
+                        <span class="icon">✉</span> Email
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="terminal-window">
+                    <div class="terminal-header">
+                        <span class="terminal-title">~/rajesh-thippani/security</span>
+                    </div>
+                    <div class="terminal-body">
+                        <p><span class="term-prompt">$</span> whoami</p>
+                        <p class="term-output">Senior AppSec Engineer</p>
+                        <p><span class="term-prompt">$</span> cat experience.txt</p>
+                        <p class="term-output">11 years cybersecurity | 5+ years automotive | 446 findings</p>
+                        <p><span class="term-prompt">$</span> echo $FOCUS</p>
+                        <p class="term-output">Connected vehicles | APIs | Mobile security | Cloud</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">About</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm a Senior Application Security Engineer with 11 years of hands-on experience securing 
+                        enterprise applications, mobile platforms, APIs, and connected vehicle ecosystems.
+                    </p>
+                    <p>
+                        Over the past 5+ years at Toyota Motor North America, I've led security testing and validation 
+                        efforts across the connected vehicle platform (CTP), identifying and validating 446+ security findings 
+                        across critical infrastructure protecting 13+ million vehicles. My work directly contributes to 
+                        automotive security compliance frameworks including SAE J3161, SOTIF, GDPR, and CCPA.
+                    </p>
+                    <p>
+                        I'm passionate about discovering real-world vulnerabilities, understanding attack vectors, and 
+                        building secure systems from the ground up. I love the intersection of security engineering and 
+                        automotive technology, where security decisions directly impact millions of users.
+                    </p>
+                    <p>
+                        <strong>Currently interested in:</strong> Connected vehicle security, API security hardening, 
+                        threat modeling, automotive compliance frameworks, and mentoring next-generation security engineers.
+                    </p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat">
+                        <div class="stat-number">446+</div>
+                        <div class="stat-label">Security Findings</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">93%</div>
+                        <div class="stat-label">Remediation Rate</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">$63.9M+</div>
+                        <div class="stat-label">Identified Value</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">11</div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid" id="projectsGrid">
+                <!-- Projects will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Modal -->
+    <div class="modal" id="projectModal">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <div id="modalBody">
+                <!-- Project details will be populated by JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Competitions Section -->
+    <section class="competitions" id="competitions">
+        <div class="container">
+            <h2 class="section-title">Competitions & CTFs</h2>
+            <div class="competitions-grid" id="competitionsGrid">
+                <!-- Competitions will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Learning Section -->
+    <section class="learning" id="learning">
+        <div class="container">
+            <h2 class="section-title">Practical Learning</h2>
+            <div class="learning-content">
+                <div class="learning-card">
+                    <h3>TryHackMe</h3>
+                    <div class="learning-stats">
+                        <p><strong>Rooms Completed:</strong> <!-- TODO: CUSTOMIZE - Add your TryHackMe room count --> TBD</p>
+                        <p><strong>Focus Areas:</strong> Web Security, Penetration Testing, Network Security, Cryptography</p>
+                        <p><strong>Streak:</strong> <!-- TODO: CUSTOMIZE - Add your current streak --> TBD days</p>
+                    </div>
+                    <p class="learning-description">
+                        Hands-on cybersecurity training covering practical attack scenarios, defense techniques, 
+                        and security tooling. Focused on web application testing, API security, and infrastructure assessment.
+                    </p>
+                    <a href="https://tryhackme.com/p/rajesh-thippani" class="btn btn-small" target="_blank">View Profile →</a>
+                </div>
+
+                <div class="learning-card">
+                    <h3>HackTheBox</h3>
+                    <div class="learning-stats">
+                        <p><strong>Machines Pwned:</strong> <!-- TODO: CUSTOMIZE - Add your HTB stats --> TBD</p>
+                        <p><strong>Focus Areas:</strong> Application Security, Cloud Exploitation, Binary Analysis</p>
+                    </div>
+                    <p class="learning-description">
+                        Real-world penetration testing scenarios and exploit development. Practicing vulnerability discovery 
+                        in diverse environments including web applications, cloud services, and system architecture.
+                    </p>
+                    <a href="https://app.hackthebox.com/profile/<!-- TODO: CUSTOMIZE - Add your HTB user ID -->" class="btn btn-small" target="_blank">View Profile →</a>
+                </div>
+
+                <div class="learning-card">
+                    <h3>Open Source Security</h3>
+                    <div class="learning-stats">
+                        <p><strong>OWASP:</strong> Active participant in OWASP security research and community</p>
+                        <p><strong>SANS Top 25:</strong> Continuous learning on CWE/CVE landscape</p>
+                    </div>
+                    <p class="learning-description">
+                        Contributing to open source security projects, participating in security research discussions, 
+                        and staying current with emerging vulnerabilities and attack techniques.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="certifications" id="certifications">
+        <div class="container">
+            <h2 class="section-title">Certifications & Education</h2>
+            <div class="certifications-grid">
+                <div class="cert-item">
+                    <div class="cert-badge">CEH</div>
+                    <h4>Certified Ethical Hacker</h4>
+                    <p class="cert-issuer">EC-Council</p>
+                    <p class="cert-date">Valid through April 2027</p>
+                </div>
+                <div class="cert-item">
+                    <div class="cert-badge">OSCP</div>
+                    <h4>Offensive Security Certified Professional</h4>
+                    <p class="cert-issuer">Offensive Security</p>
+                    <p class="cert-date">Target: Q1 2027</p>
+                </div>
+                <div class="cert-item">
+                    <div class="cert-badge">MS</div>
+                    <h4>Master of Science in Cybersecurity</h4>
+                    <p class="cert-issuer">New England College</p>
+                    <p class="cert-date">2020</p>
+                </div>
+                <div class="cert-item">
+                    <div class="cert-badge">MS</div>
+                    <h4>Master of Science in Computer Engineering</h4>
+                    <p class="cert-issuer">International Technological University</p>
+                    <p class="cert-date">2015</p>
+                </div>
+                <div class="cert-item">
+                    <div class="cert-badge">BS</div>
+                    <h4>Bachelor of Science in Electrical & Electronics Engineering</h4>
+                    <p class="cert-issuer">JNTU Hyderabad</p>
+                    <p class="cert-date">2013</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section class="achievements" id="achievements">
+        <div class="container">
+            <h2 class="section-title">Achievements & Community</h2>
+            <div class="achievements-grid">
+                <div class="achievement-card">
+                    <h3>🎓 Mentor & Educator</h3>
+                    <p>
+                        Mentoring junior security engineers and testers on VSTE project, providing guidance on 
+                        OWASP testing methodology, threat modeling, and automotive security domain expertise.
+                    </p>
+                </div>
+                <div class="achievement-card">
+                    <h3>🎤 Conference Presenter</h3>
+                    <p>
+                        Presented "Connected Vehicle Security Testing" at Toyota Automotive Security Hack Festa 2025, 
+                        educating university students and security professionals on vehicle security testing frameworks.
+                    </p>
+                </div>
+                <div class="achievement-card">
+                    <h3>🔬 Research Contributor</h3>
+                    <p>
+                        Participant in ACM CODASPY (Conference on Data and Application Security and Privacy), 
+                        engaging with cutting-edge security research and academic advancements.
+                    </p>
+                </div>
+                <div class="achievement-card">
+                    <h3>🛡️ Security Leadership</h3>
+                    <p>
+                        Played a key role in establishing security testing best practices and processes across 
+                        Toyota's Product Cybersecurity Group (PST), impacting 13+ million connected vehicles.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <p>Interested in discussing security challenges, collaborating on projects, or exploring opportunities?</p>
+                <div class="contact-links">
+                    <a href="https://github.com/rajesh-thippani" class="contact-link" target="_blank">
+                        <span class="contact-icon">→</span>
+                        <span>GitHub</span>
+                    </a>
+                    <a href="https://linkedin.com/in/rajesh-thippani-748694178" class="contact-link" target="_blank">
+                        <span class="contact-icon">↗</span>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="mailto:rajesh.thippani0@gmail.com" class="contact-link">
+                        <span class="contact-icon">✉</span>
+                        <span>Email</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Rajesh Thippani. All rights reserved.</p>
+                <p class="footer-note">This portfolio showcases projects and achievements in cybersecurity and application security.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
