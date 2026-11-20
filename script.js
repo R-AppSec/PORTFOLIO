@@ -150,13 +150,6 @@ const certificationsData = [
         badge: "CEH"
     },
     {
-        name: "OSCP (Offensive Security Certified Professional)",
-        issuer: "Offensive Security",
-        date: "In Progress",
-        link: "https://www.offensive-security.com/pwk-oscp/",
-        badge: "OSCP"
-    },
-    {
         name: "CKAD (Certified Kubernetes Application Developer)",
         issuer: "Linux Foundation",
         date: "2024",
